@@ -78,14 +78,21 @@ def getForecast(ticker, nb_days):
     cwd = os.getcwd()
     if ticker == 'AAPL':
         if nb_days == '1 Day':
-            model_path = cwd + '\\Apple\\AAPL_1_day_SPF_model'
-            scaler_path = cwd + '\\Apple\\AAPL_1_day_SPF_scaler.pkl'
+            '''NOTE : COMMENTED PATH WORK ON LOCAL SYSTEM AND UNCOMMENTED ONES WORK FOR WEB APP'''
+            #model_path = cwd + '\\Apple\\AAPL_1_day_SPF_model'
+            #scaler_path = cwd + '\\Apple\\AAPL_1_day_SPF_scaler.pkl'
+            model_path = cwd + '/Apple/AAPL_1_day_SPF_model'
+            scaler_path = cwd + '/Apple/AAPL_1_day_SPF_scaler.pkl'
         elif nb_days == '2 Days':
-            model_path = cwd + '\\Apple\\AAPL_2_days_SPF_model'
-            scaler_path = cwd + '\\Apple\\AAPL_2_days_SPF_scaler.pkl'
+            #model_path = cwd + '\\Apple\\AAPL_2_days_SPF_model'
+            #scaler_path = cwd + '\\Apple\\AAPL_2_days_SPF_scaler.pkl'
+            model_path = cwd + '/Apple/AAPL_2_days_SPF_model'
+            scaler_path = cwd + '/Apple/AAPL_2_days_SPF_scaler.pkl'
         else:
-            model_path = cwd + '\\Apple\AAPL_3_days_SPF_model'
-            scaler_path = cwd + '\\Apple\AAPL_3_days_SPF_scaler.pkl'
+            #model_path = cwd + '\\Apple\\AAPL_3_days_SPF_model'
+            #scaler_path = cwd + '\\Apple\\AAPL_3_days_SPF_scaler.pkl'
+            model_path = cwd + '/Apple/AAPL_3_days_SPF_model'
+            scaler_path = cwd + '/Apple/AAPL_3_days_SPF_scaler.pkl'
     logger(ph, "Loading saved model")
     model = load_model(model_path)
     logger(ph, "Loading saved scaler")
