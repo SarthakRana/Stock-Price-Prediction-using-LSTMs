@@ -78,7 +78,7 @@ def getForecast(ticker, nb_days):
     cwd = os.getcwd()
     if ticker == 'AAPL':
         if nb_days == '1 Day':
-            '''NOTE : COMMENTED PATH WORK ON LOCAL SYSTEM AND UNCOMMENTED ONES WORK FOR WEB APP'''
+            # NOTE : COMMENTED PATH WORK ON LOCAL SYSTEM AND UNCOMMENTED ONES WORK FOR WEB APP
             #model_path = cwd + '\\Apple\\AAPL_1_day_SPF_model'
             #scaler_path = cwd + '\\Apple\\AAPL_1_day_SPF_scaler.pkl'
             model_path = cwd + '/Apple/AAPL_1_day_SPF_model'
