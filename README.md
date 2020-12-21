@@ -1,9 +1,9 @@
 # 💸 Stock Price Forecasting using LSTMs 📈
 
-## Try out the project here -- https://stock-price-forecasting.herokuapp.com/
-<br>
-### *(Please wait for 12-15 seconds for app to load initially)*
-<br>
+#### Try out the project here -- https://stock-price-forecasting.herokuapp.com/
+<br><br>
+*(Please wait for 12-15 seconds for app to load initially)*
+<br><br>
 
 ![](https://www.thebalance.com/thmb/nQn7Hs8wx2wqUwC7h-TT1xrnJWo=/4608x2592/filters:fill(auto,1)/close-up-of-chart-on-digital-display-887362798-5a65990b0d327a0036c0ea79.jpg)
 
