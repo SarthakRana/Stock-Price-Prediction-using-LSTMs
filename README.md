@@ -2,10 +2,12 @@
 
 ## Try out the project here -- https://stock-price-forecasting.herokuapp.com/
 <br>
-*(Please wait for 12-15 seconds for app to load initially)*
+### *(Please wait for 12-15 seconds for app to load initially)*
+<br>
 
 ![](https://www.thebalance.com/thmb/nQn7Hs8wx2wqUwC7h-TT1xrnJWo=/4608x2592/filters:fill(auto,1)/close-up-of-chart-on-digital-display-887362798-5a65990b0d327a0036c0ea79.jpg)
 
+<br><br>
 This is a Stock Price Forecasting project wherein I have used an LSTM based model trained on previous 10 years of Apple's Closing stock prices. The model is capable of forecasting next 1, 2 and 3 days of closing stock price.
 
 ## 1. Prerequisites
