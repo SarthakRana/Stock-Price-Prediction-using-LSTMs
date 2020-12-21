@@ -103,17 +103,30 @@ port = $PORT\n\
 NOTE : To deploy on Heroku, you can either use Heroku CLI or Heroku Dashboard.
 You can follow the rest of the steps from here : https://www.youtube.com/watch?v=IWWu9M-aisA
 
-## 5. Roadmap
+## 5. Output
+
+Below are some screenshots from the project web app :
+
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(51).png)
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(52).png)
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(53).png)
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(56).png)
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(55).png)
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(57).png)
+![](https://github.com/SarthakRana/Stock-Price-Prediction-using-LSTMs/blob/main/Screenshots/Screenshot%20(59).png)
+
+
+## 6. Roadmap
 
 See the open issues for a list of proposed features (and known issues)(if any).
 If your issue is not listed in the already open issues, you can open up a new one.
 
-## 6. To-do
+## 7. To-do
 
 - [ ] Add stock tickers for Amazon, Tesla, Google, HDFC Bank, etc.
 - [ ] Add EDA for each stock ticker on a separate web page.
 
-## 7. Contributing
+## 8. Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
@@ -123,7 +136,7 @@ Contributions are what make the open source community such an amazing place to b
   4. Push to the Branch.
   5. Open a Pull Request.
 
-## 8. Authors
+## 9. Authors
 
 NOTE : Your name will be added here if I merge your pull request.
 
